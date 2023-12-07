@@ -73,9 +73,11 @@ function addListenerHitBox() {
                 if(state.values.initLife>0){
                     state.values.initLife--
                     state.view.life.textContent = state.values.initLife
+                    playsound("creck")
                 }
                 else if (state.values.initLife=0){
                     state.values.initLife--
+                    playsound("creck")
                 }
 
                 else{
