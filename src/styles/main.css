@@ -1,0 +1,52 @@
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/wall.png);
+}
+.menu{
+    height: 90px;
+    border-bottom: 5px solid #ffd700;
+    display: flex;
+    justify-content: space-evenly;
+    color: #ffffff;
+    background-color: #000000;
+    text-transform: uppercase;
+}
+.menu-life{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-life img{
+    height: 60px;
+}
+
+.menu-score h2:nth-child(2), 
+.menu-time h2:nth-child(2){
+    padding: 1rem;
+}
+
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.square{
+    height: 150px;
+    width: 150px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #00ffff;
+    background-image: url(../images/glass.png);
+    background-size: contain;
+}
+.enemy{
+    background-image: url(../images/ralph.png);
+    background-size: cover;
+}
+.damage{
+    background-image: url(../images/ralph-damaged.png);
+    background-size: cover;
+}
